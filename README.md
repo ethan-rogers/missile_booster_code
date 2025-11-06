@@ -18,7 +18,7 @@ ${\Delta}v=I_{sp}g\ln{\frac{m_0}{m_f}}$
 
 This equation gives us the velicty contributed by each stage. By looping through different stage sizes, this program calculated the best stage sizes by maximizing total velocity for a given propellent mass and payload. 
 
-## Variable Descriptions
+## Advanced Variable Descriptions
 
 ### Rocket Constants
 
