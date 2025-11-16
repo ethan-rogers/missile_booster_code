@@ -1,6 +1,6 @@
 # Optimization for a three stage missile
 
-An application for optomizing the mass ratios for a multi-stage rocket. 
+An application for optomizing the mass ratios for a multi-stage rocket. A brief summary of metheadology and results is provided but for much more detail see `technical-report.odf`. 
 
 ![alt text](graphs/screenshot.png)
 
