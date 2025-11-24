@@ -72,6 +72,7 @@ This graph is for the traditional missile. Since all mass fractions must add up 
 ![alt text](graphs/size_v.png "Unconstrained Optimization")
 
 This graph is for the booster stage optimization. Since the bottom stage is the booster, its mass fraction remains constant. So by changing the second we can infer the third. 
+
 ![alt text](graphs/size_v_b.png "Booster Optimization")
 
 
