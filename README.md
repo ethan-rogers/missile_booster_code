@@ -1,6 +1,6 @@
 # Optimization for a three stage missile
 
-An application for optomizing the mass ratios for a multi-stage rocket. A brief summary of metheadology and results is provided but for much more detail see `technical-report.odf`. 
+An application for optomizing the mass ratios for a multi-stage rocket. A brief summary of metheadology and results is provided but for detail see `technical-report.odf`. 
 
 ![alt text](graphs/screenshot.png)
 
@@ -61,13 +61,18 @@ Run the file `src/main.py`
 
 ### Data from Default Simulation
 
-![alt text](graphs/v_after_stage.png "Title")
+#### Performance Comparisons
+![alt text](graphs/v_after_stage.png "V Comparison")
 
-![alt text](graphs/v_propellent.png "Title")
+![alt text](graphs/v_propellent.png "Flght Comparison")
 
-![alt text](graphs/size_v.png "Title")
+#### Optimization Graphs
 
-![alt text](graphs/size_v_b.png "Title")
+This graph is for the traditional missile. Since all mass fractions must add up to 1, by changing only two we can infer the third. 
+![alt text](graphs/size_v.png "Unconstrained Optimization")
+
+This graph is for the booster stage optimization. Since the bottom stage is the booster, its mass fraction remains constant. So by changing the second we can infer the third. 
+![alt text](graphs/size_v_b.png "Booster Optimization")
 
 
 
